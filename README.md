@@ -97,7 +97,7 @@ Answer (Source-grounded)
 
 1. **Clone Repository**
 ```bash
-git clone <YOUR_REPO_URL>
+git clone <https://github.com/mukeshch77/Chat_with_pdf>
 cd chat_with_pdf
 ```
 
