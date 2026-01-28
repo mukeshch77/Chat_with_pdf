@@ -87,7 +87,7 @@ Answer (Source-grounded)
 | Data Ingestion | `PyPDFLoader` + chunking | Efficient text extraction and split |
 | Vector DB | `FAISS` | Fast, local, open-source |
 | Embeddings | `sentence-transformers/all-MiniLM-L6-v2` | Free and lightweight |
-| LLM Orchestration | `OllamaLLM` with Mistral | Local inference, offline, interview-safe |
+| LLM Orchestration | `OllamaLLM` with mistral:7b-instruct-q4_0 | Local inference, offline |
 | Cost Control | Local inference, no API | Free and offline |
 | Monitoring | Logging similarity search and retrieval size | Debugging and quality control |
 
