@@ -26,19 +26,14 @@ Key features:
 - **UI:** Streamlit-based, allows PDF upload and question input
 
 **Architecture:**
-PDF
- ↓
-Chunking (RecursiveCharacterTextSplitter)
- ↓
-Embeddings (sentence-transformers)
- ↓
-FAISS Vector DB
- ↓
-Relevant Context Retrieval
- ↓
-Local LLM (Ollama – Mistral)
- ↓
-Answer (Source-grounded)
+
+- PDF  
+- Chunking (RecursiveCharacterTextSplitter)  
+- Embeddings (sentence-transformers)  
+- FAISS Vector DB  
+- Relevant Context Retrieval  
+- Local LLM (Ollama – Mistral)  
+- Answer (Source-grounded)
 
 
 ---
