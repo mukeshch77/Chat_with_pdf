@@ -26,7 +26,7 @@ Key features:
 - **UI:** Streamlit-based, allows PDF upload and question input
 
 **Architecture:**
-
+```
 PDF
 ↓
 Chunking (RecursiveCharacterTextSplitter)
@@ -40,7 +40,7 @@ Relevant Context Retrieval
 Local LLM (Ollama – Mistral)
 ↓
 Answer (Source-grounded)
-
+```
 
 ---
 
