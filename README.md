@@ -55,7 +55,7 @@ Answer (Source-grounded)
 **Example:**
 
 - **Question:** Minimum CGPA criteria  
-- **Answer:** Minimum 7 CGPA (directly from document, no hallucination)
+- **Answer:** The minimum eligibility criteria for MCA students to apply for the internship program is a CGPA of 7.(directly from document, no hallucination)
 
 ---
 
