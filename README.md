@@ -27,13 +27,19 @@ Key features:
 
 **Architecture:**
 
-- PDF  
-- Chunking (RecursiveCharacterTextSplitter)  
-- Embeddings (sentence-transformers)  
-- FAISS Vector DB  
-- Relevant Context Retrieval  
-- Local LLM (Ollama – Mistral)  
-- Answer (Source-grounded)
+PDF
+↓
+Chunking (RecursiveCharacterTextSplitter)
+↓
+Embeddings (sentence-transformers)
+↓
+FAISS Vector DB
+↓
+Relevant Context Retrieval
+↓
+Local LLM (Ollama – Mistral)
+↓
+Answer (Source-grounded)
 
 
 ---
