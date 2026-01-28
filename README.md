@@ -123,3 +123,24 @@ ollama pull mistral:7b-instruct-q4_0
 ```bash
 streamlit run app.py
 ```
+
+## Design Decisions
+
+- **Local LLM (Ollama)**  
+  Ensures zero cost, offline operation, and full compliance with the assessment requirement of using an LLM without relying on paid APIs.
+
+- **HuggingFace Embeddings + FAISS**  
+  Lightweight, free, and efficient vector-based retrieval system enabling fast semantic search over document chunks.
+
+- **Prompt Template (Context-Strict)**  
+  Enforces answers strictly from retrieved context and returns *“Answer not found in the document”* when information is missing, reducing hallucinations.
+
+- **Streamlit UI**  
+  Simple, interactive interface for rapid prototyping, easy PDF upload, and real-time question answering.
+
+  ## References
+
+- [LangChain](https://www.langchain.com/)
+- [FAISS](https://github.com/facebookresearch/faiss)
+- [Ollama](https://ollama.com/)
+- [HuggingFace Transformers](https://huggingface.co/docs/transformers)
